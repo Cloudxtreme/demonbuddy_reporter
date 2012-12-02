@@ -10,6 +10,7 @@ class Report extends CI_Controller {
 	
 	function index()
 	{
+		
 		$data = array();
 		$data['title'] = "";
 		
