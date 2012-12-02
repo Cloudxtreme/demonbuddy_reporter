@@ -1,6 +1,6 @@
 <script>
 	var new_items = 0;
-	var page_title = "<?php echo $title;?>";
+	var page_title = "DemonBuddy Reporter - <?php echo $title;?>";
 	$(document).ready(function(){
 		//update_stash_logs();
 		$(".newItem").live('click', function(){

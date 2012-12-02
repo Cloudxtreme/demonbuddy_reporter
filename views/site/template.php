@@ -12,7 +12,6 @@
 	<link href="<?php echo $this->config->item('site_url');?>includes/favicon.ico" rel="icon" type="image/x-icon" />
 	<script type="text/javascript" src="<?php echo $this->config->item('base_url');?>includes/js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo $this->config->item('base_url');?>includes/js/jquery.validate.js"></script>
-	<script type="text/javascript" src="<?php echo $this->config->item('base_url');?>includes/js/jquery.timeago.js"></script>
 </head>
 <body>
 	<style>
