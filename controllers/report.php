@@ -11,7 +11,7 @@ class Report extends CI_Controller {
 	function index()
 	{
 		$data = array();
-		$data['title'] = "DemonBuddy Reporter";
+		$data['title'] = "";
 		
 		$stash_paths = $this->config->item('stash_paths');
 		foreach( $stash_paths as $path){

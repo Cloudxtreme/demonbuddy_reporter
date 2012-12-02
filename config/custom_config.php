@@ -1,8 +1,8 @@
 <?php
 // You will need to modify the configuration each. 
 // Please also visit config/database.php and ensure your database settings
-$config['base_url']	= "http://localhost/demonbuddy_reporter/"; 		// This must be the FULL web URL to your DemonBuddy Reporter. Please include trailing slash!
-$config['site_folder'] = "c:/xampp/htdocs/demonbuddy_reporter/"; 	// The physical directory of the DemonBuddy Reporter. Please include trailing slash!
+$config['base_url']	= "http://localhost/demonbuddy-reporter/"; 		// This must be the FULL web URL to your DemonBuddy Reporter. Please include trailing slash!
+$config['site_folder'] = "c:/xampp/htdocs/demonbuddy-reporter/"; 	// The physical directory of the DemonBuddy Reporter. Please include trailing slash!
 $config['custom_smtp_host'] = "localhost";						// Email server configuration
 
 
