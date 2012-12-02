@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>DemonBuddy Reporter - <?php echo $title;?></title>
+	<title>DemonBuddy Reporter <?php echo !empty($title) ? " - " . $title : '';?></title>
 	<meta http-equiv="content-type" 
 		content="text/html;charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />

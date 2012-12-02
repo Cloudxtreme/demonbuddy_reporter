@@ -9,8 +9,8 @@ $config['custom_smtp_host'] = "localhost";						// Email server configuration
 //These are the paths to the stashlogs for your various botting characters. Select the Stash log within the GilesTrinity. These directories and files MUST BE WRITEABLE!
 //PLEASE ENSURE ALL DIRECTORIES AND FILES ARE WRITEABLE BY THE SYSTEM!
 $config['stash_paths'] = array(
-	"C:/Users/Ben/Desktop/Demonbuddy/Plugins/GilesTrinity/Binlagin#1111 - StashLog - Monk.log",  
-	"C:/Users/Ben/Desktop/Demonbuddy/Plugins/GilesTrinity/Strider#2222 - StashLog - Monk.log", 
-	"Z:/Plugins/GilesTrinity/Binlaggggin#3333 - StashLog - Monk.log",
-	"C:/Users/Ben/Desktop/Demonbuddy/Plugins/GilesTrinity/binlagggin#4444 - StashLog - Monk.log"
+	"C:/Users/Ben/Desktop/Demonbuddy/Plugins/GilesTrinity/Binlagin#1471 - StashLog - Monk.log",  
+	"C:/Users/Ben/Desktop/Demonbuddy/Plugins/GilesTrinity/Strider#1247 - StashLog - Monk.log", 
+	"Z:/Plugins/GilesTrinity/Binlaggggin#1437 - StashLog - Monk.log",
+	"C:/Users/Ben/Desktop/Demonbuddy/Plugins/GilesTrinity/binlagggin#1809 - StashLog - Monk.log"
 );
