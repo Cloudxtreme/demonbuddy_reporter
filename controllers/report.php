@@ -74,12 +74,7 @@ class Report extends CI_Controller {
 		//Get messages for this current users session (since midnight and not in session array of id's)
 		echo json_encode($this->demonbuddy_model->load_items_after_id($last_id));
 	}
-	
-	function test(){
-		//$this->load->model('shipping_model');
-		//vardump( $this->shipping_model->get_territory_name_by_code("NSW"));
-	}
-	
+		
 	function _parse_stash_file($stash_file) {
 		$lock_file = $stash_file . ".LCK";
 		
