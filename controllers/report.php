@@ -2,18 +2,16 @@
 
 class Report extends CI_Controller {
 
-	function Welcome()
+	function Report()
 	{
-		parent::Report();	
-		$this->load->helper('util_helper');
+		parent::__construct();		
 		$this->form_validation->set_error_delimiters('<div class="error">', '</div>');
-		$this->config->load('custom_config');
 	}
 	
 	function index()
 	{
 		$data = array();
-		$data['title'] = "Binlagin's Demonbuddy Bot Information";
+		$data['title'] = "DemonBuddy Reporter";
 		
 		$stash_paths = $this->config->item('stash_paths');
 		foreach( $stash_paths as $path){
